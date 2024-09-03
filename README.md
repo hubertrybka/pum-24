@@ -1,5 +1,22 @@
 # Course materials for the 2024/2025 edition of Basics of Machine Learning (Podstawy uczenia maszynowego) taught at the Faculty of Chemistry, Jagiellonian University in Kraków
 
+```
+,-.----.                             ____                                     ,--,
+\    /  \                          ,'  , `.                  ,----,         ,--.'|
+|   :    \           ,--,       ,-+-,.' _ |                .'   .' \     ,--,  | :
+|   |  .\ :        ,'_ /|    ,-+-. ;   , ||     ,---,.   ,----,'    | ,---.'|  : '
+.   :  |: |   .--. |  | :   ,--.'|'   |  ;|   ,'  .' |   |    :  .  ; ;   : |  | ;
+|   |   \ : ,'_ /| :  . |  |   |  ,', |  ': ,---.'   ,   ;    |.'  /  |   | : _' |
+|   : .   / |  ' | |  . .  |   | /  | |  || |   |    |   `----'/  ;   :   : |.'  |
+;   | |`-'  |  | ' |  | |  '   | :  | :  |, :   :  .'      /  ;  /    |   ' '  ; :
+|   | ;     :  | | :  ' ;  ;   . |  ; |--'  :   |.'       ;  /  /-,   \   \  .'. |
+:   ' |     |  ; ' |  | '  |   : |  | ,     `---'        /  /  /.`|    `---`:  | '
+:   : :     :  | : ;  ; |  |   : '  |/                 ./__;      :         '  ; |
+|   | :     '  :  `--'   \ ;   | |`-'                  |   :    .'          |  : ;
+`---'.|     :  ,      .-./ |   ;/                      ;   | .'             '  ,/ 
+  `---`      `--`----'     '---'                       `---'                '--'          
+```
+
 ## Course info
 During the semester you will have to complete a series of seven laboratory sessions. 
 The course material is divided into notebooks, each dedicated to a specific topic.
@@ -22,7 +39,7 @@ You need to get at least 35 points to pass the course.
 The final marks will be increased by 0.5 for active participation in laboratory classes or other forms of
 contribution to the course.
 
-The course is taught in Polish, but the course materials are in English so that you can get accustomed to the
+The course is taught in Polish, but the course materials are in English so that you can get accustomed to the ML-related
 terminology and use it in your future work.
 
 <br>
