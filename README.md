@@ -18,6 +18,21 @@
   `---`      `--`----'     '---'                       `---'                '--'          
 ```
 
+## Table of contents
+* Lab 1 - Python basics. Conway's Game of Life.
+* Lab 2 - Classes and objects in Python. Linear Regression in NumPy.
+* Lab 3 - Exploratory data analysis. Dataset manipulations. Building a regression model.
+* Lab 4 - Binary classification. Clustering and unsupervised learning.
+* Lab 5 - Introduction to neural networks with PyTorch.
+* Lab 6 - Managing the training process of neural networks with W&B.
+* Lab 7 - Generative models. Variational Autoencoder.
+---
+
+## Quick introduction to the Python random module
+
+The Python standard library includes a module called `random` that provides functions for generating pseudorandom numbers. To complete the exercises in this notebook, you may want to learn the following functions:
+
+
 ## Course info
 During the semester you will have to complete a series of seven laboratory sessions. 
 The course material is divided into notebooks, each dedicated to a specific topic.
