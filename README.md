@@ -1,4 +1,5 @@
-# Course materials for the 2024/2025 edition of Basics of Machine Learning (Podstawy uczenia maszynowego) taught at the Faculty of Chemistry, Jagiellonian University in Kraków
+# Course materials for the 2024/2025 edition of Basics of Machine Learning (Podstawy Uczenia Maszynowego) 
+## Taught at the Faculty of Chemistry, Jagiellonian University in Kraków
 
 ```
 ,-.----.                             ____                                     ,--,
