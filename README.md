@@ -26,12 +26,6 @@
 * Lab 5 - Introduction to neural networks with PyTorch.
 * Lab 6 - Managing the training process of neural networks with W&B.
 * Lab 7 - Generative models. Variational Autoencoder.
----
-
-## Quick introduction to the Python random module
-
-The Python standard library includes a module called `random` that provides functions for generating pseudorandom numbers. To complete the exercises in this notebook, you may want to learn the following functions:
-
 
 ## Course info
 During the semester you will have to complete a series of seven laboratory sessions. 
