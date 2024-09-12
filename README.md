@@ -22,9 +22,9 @@
 * Lab 1 - Python basics. Conway's Game of Life.
 * Lab 2 - Classes and objects in Python. Linear Regression in NumPy.
 * Lab 3 - Exploratory data analysis. Dataset manipulations. Building a regression model.
-* Lab 4 - Binary classification. Clustering and unsupervised learning.
+* Lab 4 - Binary classification. Unsupervised learning.
 * Lab 5 - Introduction to neural networks with PyTorch.
-* Lab 6 - Managing the training process of neural networks with W&B.
+* Lab 6 - Visualizing the training process of neural networks. Coding a simple app in Streamlit.
 * Lab 7 - Generative models. Variational Autoencoder.
 
 ## Course info
