@@ -45,9 +45,9 @@ to the following scale:
 The exercises preceded by a star (*) are not graded, but they will help you to better understand the material
 or are just fun to do.
 
-You need to get at least 35 points to pass the course.
-The final marks will be increased by 0.5 for active participation in laboratory classes or other forms of
-contribution to the course.
+You need to get at least 35 points to pass the course. During each laboratory session, you can earn additional points
+by solving extracurricular problems, actively participating in the class, and contributing to the course in other ways. 
+The maximum number of additional points you can earn is 5.
 
 The course is taught in Polish, but the course materials are in English so that you can get accustomed to the ML-related
 terminology and use it in your future work.
