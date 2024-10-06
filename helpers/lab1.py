@@ -22,6 +22,8 @@ def test_min_max(foo):
         if foo(x)[0] != y[0] or foo(x)[1] != y[1]:
             raise AssertionError(f'Expected {y}, but got {foo(x)} for {x}')
 
+    print('Seems OK!')
+
 def test_median(foo):
 
     test_inputs = [
@@ -33,7 +35,7 @@ def test_median(foo):
     test_outputs = [
         3,
         12,
-        2.57
+        2.07
     ]
 
     for x, y in zip(test_inputs, test_outputs):
@@ -41,8 +43,10 @@ def test_median(foo):
         if type(foo(x)) not in [int, float]:
             raise AssertionError(f'Expected an int or float, but got {type(foo(x))} as output')
 
-        if foo(x)[0] != y[0] or foo(x)[1] != y[1]:
+        if foo(x) != y:
             raise AssertionError(f'Expected {y}, but got {foo(x)} for {x}')
+
+    print('Seems OK!')
 
 def test_euler(foo):
 
