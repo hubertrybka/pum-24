@@ -21,8 +21,8 @@
 ## Table of contents
 * Lab 1 - Python basics. Conway's Game of Life.
 * Lab 2 - Classes and objects in Python. Linear Regression in NumPy.
-* Lab 3 - Introduction to `pandas` and `seaborn`. Binary classification.
-* Lab 4 - Dealing with real data. Feature engineering. Regression.
+* Lab 3 - Introduction to pandas and seaborn. Binary classification.
+* Lab 4 - Dealing with real data. Building a regression model.
 * Lab 5 - Introduction to neural networks with PyTorch.
 * Lab 6 - Visualizing the training process of neural networks. Coding a simple app in Streamlit.
 * Lab 7 - Generative models. Variational Autoencoder.
