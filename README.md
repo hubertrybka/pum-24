@@ -42,8 +42,9 @@ to the following scale:
 * 56 - 62 points: 4.5
 * 63 - 70 points: 5.0
 
-The exercises preceded by a star (*) are not graded, but they will help you to better understand the material
-or are just fun to do.
+The exercises preceded by a star (*) are not graded, but they introduce some fun concepts or more advanced topics. 
+Solving them can sometimes earn you additional points. The information about the extra points will be included 
+in the exercise description or announced during the laboratory session.
 
 You need to get at least 35 points to pass the course. During each laboratory session, you can earn additional points
 by solving extracurricular problems, actively participating in the class, and contributing to the course in other ways. 
