@@ -52,7 +52,7 @@ or are just fun to do.
 
 You need to get at least 35 points to pass the course. During each laboratory session, you can earn additional points
 by solving extracurricular problems, actively participating in the class, and contributing to the course in other ways. 
-The maximum number of additional points you can earn during each lab is 5.
+The maximum number of additional points you can earn during the course is 10.
 
 The course is taught in Polish, but the course materials are in English so that you can get accustomed to the ML-related
 terminology and use it in your future work.
