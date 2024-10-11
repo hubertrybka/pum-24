@@ -24,7 +24,7 @@
 * Lab 3 - Introduction to `pandas` and `seaborn`. Binary classification.
 * Lab 4 - Data preprocessing and feature engineering. Building a regression model. Coding a simple app in Streamlit.
 * Lab 5 - Introduction to neural networks with PyTorch.
-* Lab 6 - Visualizing the training process of neural networks.
+* Lab 6 - Visualizing the training process of neural networks and hyperparameter tuning.
 * Lab 7 - Generative models. Variational Autoencoder.
 
 ## Course info
