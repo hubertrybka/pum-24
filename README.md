@@ -21,13 +21,8 @@
 ## Table of contents
 * Lab 1 - Python basics. Conway's Game of Life.
 * Lab 2 - Classes and objects in Python. Linear Regression in NumPy.
-<<<<<<< Updated upstream
-* Lab 3 - Introduction to pandas and seaborn. Binary classification.
-* Lab 4 - Dealing with real data. Building a regression model.
-=======
 * Lab 3 - Introduction to `pandas` and `seaborn`. Binary classification.
 * Lab 4 - Data preprocessing and feature engineering. Building a regression model. Coding a simple app in Streamlit.
->>>>>>> Stashed changes
 * Lab 5 - Introduction to neural networks with PyTorch.
 * Lab 6 - Visualizing the training process of neural networks.
 * Lab 7 - Generative models. Variational Autoencoder.
@@ -52,7 +47,7 @@ or are just fun to do.
 
 You need to get at least 35 points to pass the course. During each laboratory session, you can earn additional points
 by solving extracurricular problems, actively participating in the class, and contributing to the course in other ways. 
-The maximum number of additional points you can earn during each lab is 5.
+The maximum number of additional points you can earn during the course is 10.
 
 The course is taught in Polish, but the course materials are in English so that you can get accustomed to the ML-related
 terminology and use it in your future work.
