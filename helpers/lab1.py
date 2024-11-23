@@ -1,4 +1,4 @@
-def test_min_max(foo):
+def test_min(foo):
 
     test_inputs = [
         [1, 2, 3, 4, 5],
@@ -7,19 +7,13 @@ def test_min_max(foo):
     ]
 
     test_outputs = [
-        (1, 5),
-        (0, 1),
-        (-0.5, 42)
+        1,
+        0,
+        -0.5
     ]
 
     for x, y in zip(test_inputs, test_outputs):
-        if type(foo(x)) != tuple:
-            raise AssertionError(f'Expected a tuple, but got {type(foo(x))} as output')
-
-        if len(foo(x)) != 2:
-            raise AssertionError(f'Expected a tuple of length 2 (min, max), but got length {len(foo(x))} as output')
-
-        if foo(x)[0] != y[0] or foo(x)[1] != y[1]:
+        if foo(x) != y:
             raise AssertionError(f'Expected {y}, but got {foo(x)} for {x}')
 
     print('Seems OK!')
