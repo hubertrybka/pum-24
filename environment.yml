@@ -29,3 +29,4 @@ dependencies:
   - tqdm>=4.64.1
   - yaml>=0.2.5
   - streamlit>=1.10.0
+  - wandb>=0.18.6
