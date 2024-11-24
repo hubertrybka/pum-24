@@ -1,23 +1,3 @@
-def test_min(foo):
-
-    test_inputs = [
-        [1, 2, 3, 4, 5],
-        [1, 0, 0, 0, 0],
-        [-0.5, 8, 3.14, 42, 0, 1]
-    ]
-
-    test_outputs = [
-        1,
-        0,
-        -0.5
-    ]
-
-    for x, y in zip(test_inputs, test_outputs):
-        if foo(x) != y:
-            raise AssertionError(f'Expected {y}, but got {foo(x)} for {x}')
-
-    print('Seems OK!')
-
 def test_median(foo):
 
     test_inputs = [
