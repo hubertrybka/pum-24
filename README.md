@@ -59,11 +59,11 @@ terminology and use it in your future work.
 
 1. Install [miniconda](https://docs.conda.io/en/latest/miniconda.html) following the instructions for your operating
    system.
-2. Clone the repository: `git clone https://github.com/hubertrybka/pum-24.git`
-3. Navigate to the directory: `cd pum-24`
-4. Download datasets from our [dropbox](https://www.dropbox.com/scl/fi/50mnh2dfdr2wgddkwo512/pum24-datasets.zip?rlkey=2woga4c850qivsjwihqmqnpd0&st=vlrg3at6&dl=1) and extract them to `data` directory.
-5. Install environment from the YAML file: `conda env create -n pum-24 -f environment.yml`
-6. Activate the environment: `conda activate pum-24`
-
+2. Fork this repository (
+3. Clone the forked repository: `git clone https://github.com/{your_username}/pum-24.git`
+4. Navigate to the directory: `cd pum-24`
+5. Download datasets from our [dropbox](https://www.dropbox.com/scl/fi/50mnh2dfdr2wgddkwo512/pum24-datasets.zip?rlkey=2woga4c850qivsjwihqmqnpd0&st=vlrg3at6&dl=1) and extract them to `data` directory.
+6. Install environment from the YAML file: `conda env create -n pum-24 -f environment.yml`
+7. Activate the environment: `conda activate pum-24`
 
 Author: Hubert Rybka
