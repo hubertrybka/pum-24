@@ -2,13 +2,13 @@ import random
 import time
 from IPython.display import clear_output
 import os 
-import argparse
+import argparse 
 
-def get_empty_board(args.size):# return n x n table of dead cells (a list of lists)
+def get_empty_board(n):# return n x n table of dead cells (a list of lists)
     empty_board = []
-    for i in range(args.size):
+    for i in range(n):
         row = []
-        for j in range(args.size):
+        for j in range(n):
             row.append(0)
         empty_board.append(row)       
     return empty_board
@@ -16,10 +16,10 @@ def print_board(grid): # print the table
     for row in grid:
         print(row)
 
-def get_random_board(args.size, args.prob): # return n x n table where each cell is alive with probability 0.2
-    empty = get_empty_board(args.size)
-    for row in range(args.size):
-        for element in range(args.size):
+def get_random_board(n, p=0.2): # return n x n table where each cell is alive with probability 0.2
+    empty = get_empty_board(n)
+    for row in range(n):
+        for element in range(n):
             random_number = random.random()
             if random_number > args.prob:
                 empty[row][element]=0
@@ -75,13 +75,13 @@ for _ in range(args.steps):    # run for 20 steps
     new_board = step(board)     # generate the next step
     board = new_board           # update the board
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--size", "-s", type=int, default=10, help="Size of the board")
-parser.add_argument("--prob", "-p", type=float, default=0.2, help="Probability of a cell being alive")
-parser.add_argument("--steps", "-n", type=int, default=20, help="Number of steps to run the simulation for")
+#parser = argparse.ArgumentParser()
+#parser.add_argument("--size", "-s", type=int, default=10, help="Size of the board")
+#parser.add_argument("--prob", "-p", type=float, default=0.2, help="Probability of a cell being alive")
+#parser.add_argument("--steps", "-n", type=int, default=20, help="Number of steps to run the simulation for")
 
-args = parser.parse_args()
-args.size   # this will contain the size of the board
-args.prob   # this will contain the probability of a cell being alive
-args.steps  # this will contain the number of steps to run the simulation for
+#args = parser.parse_args()
+#args.size   # this will contain the size of the board
+#args.prob   # this will contain the probability of a cell being alive
+#args.steps  # this will contain the number of steps to run the simulation for
 
