@@ -49,3 +49,17 @@ def plot_decision_boundary(clf, X, y):
 
     sns.scatterplot(data=plot_df, x='x1', y='x2', hue='y', palette='colorblind')
     plt.contourf(xx, yy, Z, alpha=0.3, cmap='coolwarm')
+
+
+def plot_gradient_descent(f, xs):
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    x_range = np.linspace(-2, 2, 100)
+    y = f(x_range)
+
+    sns.set_style('whitegrid')
+    sns.set_context('talk')
+
+    plt.plot(x_range, y)
+    plt.scatter(xs, [f(x) for x in xs], c='crimson', s=100)

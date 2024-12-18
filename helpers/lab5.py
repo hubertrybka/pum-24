@@ -11,9 +11,8 @@ class SimplePerceptron:
         y = self.w1 * x[0] + self.w2 * x[1] + self.b
         return 1 / (1 + np.exp(-y))
 
-    def loss(self, x, y_true):
-        y_pred = self.forward(x)
-        return -y_true * np.log(y_pred) - (1 - y_true) * np.log(1 - y_pred)
+    def loss(self, y_pred, y):
+        return -y * np.log(y_pred) - (1 - y) * np.log(1 - y_pred)
 
     @staticmethod
     def get_grad_w1(x, y_pred, y_true):
@@ -27,8 +26,7 @@ class SimplePerceptron:
     def get_grad_b(y_pred, y_true):
         return y_pred - y_true
 
-    def update(self, x, y_true):
-        y_pred = self.forward(x)
+    def update(self, x, y_pred, y_true):
         self.w1 -= self.alpha * self.get_grad_w1(x, y_pred, y_true)
         self.w2 -= self.alpha * self.get_grad_w2(x, y_pred, y_true)
         self.b -= self.alpha * self.get_grad_b(y_pred, y_true)
